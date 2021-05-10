@@ -12,4 +12,4 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ github.token }}
       - run: |
-        ./build.sh --registry ghcr.io --organization ghcr.io/${{ github.repository }} --tag sha-${{ github.sha }}
+          ./build.sh --registry ghcr.io --organization ghcr.io/${{ github.repository }} --tag sha-${{ github.sha }}
