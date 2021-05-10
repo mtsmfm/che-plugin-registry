@@ -50,6 +50,7 @@ editors:
                 type: ide
                 cookiesAuthEnabled: true
                 discoverable: false
+                public: false
               protocol: http
             - name: webviews
               targetPort: 3100
@@ -61,6 +62,7 @@ editors:
                 cookiesAuthEnabled: true
                 discoverable: false
                 unique: true
+                public: false
             - name: mini-browser
               targetPort: 3100
               exposure: public
@@ -71,6 +73,7 @@ editors:
                 cookiesAuthEnabled: true
                 discoverable: false
                 unique: true
+                public: false
             - name: theia-dev
               targetPort: 3130
               exposure: public
@@ -78,24 +81,28 @@ editors:
               attributes:
                 type: ide-dev
                 discoverable: false
+                public: false
             - name: theia-redirect-1
               targetPort: 13131
               exposure: public
               protocol: http
               attributes:
                 discoverable: false
+                public: false
             - name: theia-redirect-2
               targetPort: 13132
               exposure: public
               protocol: http
               attributes:
                 discoverable: false
+                public: false
             - name: theia-redirect-3
               targetPort: 13133
               exposure: public
               protocol: http
               attributes:
                 discoverable: false
+                public: false
         attributes:
           ports:
             - exposedPort: 3100
@@ -190,6 +197,7 @@ editors:
                 type: ide
                 cookiesAuthEnabled: true
                 discoverable: false
+                public: false
             - name: webviews
               targetPort: 3100
               exposure: public
@@ -200,6 +208,7 @@ editors:
                 cookiesAuthEnabled: true
                 discoverable: false
                 unique: true
+                public: false
             - name: mini-browser
               targetPort: 3100
               exposure: public
@@ -210,6 +219,7 @@ editors:
                 cookiesAuthEnabled: true
                 discoverable: false
                 unique: true
+                public: false
             - name: theia-dev
               targetPort: 3130
               exposure: public
@@ -217,24 +227,28 @@ editors:
               attributes:
                 type: ide-dev
                 discoverable: false
+                public: false
             - name: theia-redirect-1
               targetPort: 13131
               exposure: public
               protocol: http
               attributes:
                 discoverable: false
+                public: false
             - name: theia-redirect-2
               targetPort: 13132
               exposure: public
               protocol: http
               attributes:
                 discoverable: false
+                public: false
             - name: theia-redirect-3
               targetPort: 13133
               exposure: public
               protocol: http
               attributes:
                 discoverable: false
+                public: false
         attributes:
           ports:
             - exposedPort: 3100
