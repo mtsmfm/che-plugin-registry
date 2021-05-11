@@ -11,6 +11,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ github.token }}
-      - run: ./build.sh --registry ghcr.io --organization ${{ github.repository_owner }} --tag sha-${{ github.sha }}
-      - run: docker image ls
+      - run: ./build.sh
+      - run: docker image ls -a
       - run: docker push ghcr.io/${{ github.repository }}:sha-${{ github.sha }}
