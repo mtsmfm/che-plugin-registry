@@ -854,3 +854,27 @@ plugins:
       cpuLimit: 500m
       cpuRequest: 30m
     extension: https://open-vsx.org/api/stylelint/vscode-stylelint/0.86.0/file/stylelint.vscode-stylelint-0.86.0.vsix
+  - repository:
+      url: https://github.com/rubyide/vscode-ruby
+      revision: v0.28.0
+      directory: packages/vscode-ruby-client
+    sidecar:
+      directory: ruby
+      name: vscode-ruby
+      memoryLimit: 1500Mi
+      memoryRequest: 20Mi
+      cpuLimit: 500m
+      cpuRequest: 30m
+    extension: https://open-vsx.org/api/rebornix/ruby/0.28.0/file/rebornix.ruby-0.28.0.vsix
+  - repository:
+      url: https://github.com/rubyide/vscode-ruby
+      revision: v0.27.0
+      directory: packages/vscode-ruby
+    sidecar:
+      directory: ruby
+      name: vscode-ruby
+      memoryLimit: 1500Mi
+      memoryRequest: 20Mi
+      cpuLimit: 500m
+      cpuRequest: 30m
+    extension: https://open-vsx.org/api/wingrunr21/vscode-ruby/0.27.0/file/wingrunr21.vscode-ruby-0.27.0.vsix
