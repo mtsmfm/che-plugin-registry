@@ -188,10 +188,10 @@ plugins:
           path: /documents
   - repository:
       url: 'https://github.com/eamodio/vscode-gitlens'
-      revision: v10.2.1
+      revision: v11.6.0
     aliases:
       - eamodio/vscode-gitlens
-    extension: https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-gitlens/gitlens-10.2.1.vsix
+    extension: https://open-vsx.org/api/eamodio/gitlens/11.6.0/file/eamodio.gitlens-11.6.0.vsix
   - repository:
       url: 'https://github.com/golang/vscode-go'
       revision: v0.23.0
