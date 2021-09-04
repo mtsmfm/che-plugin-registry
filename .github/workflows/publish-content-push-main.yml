@@ -29,34 +29,14 @@ jobs:
           node-version: '12'
       - name: extract content
         run: |
-          docker create --name pluginRegistry quay.io/eclipse/che-plugin-registry:next sh
+          docker create --name pluginRegistry ghcr.io/${{ github.repository_owner }}/che-plugin-registry:next sh
           mkdir content
           docker cp pluginRegistry:/var/www/html/v3 content/v3
           docker rm -f pluginRegistry
           cp content/v3/plugins/index.json content/index.json
-      - name: Publish to surge
-        env:
-          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: |
-          sudo apt-get install tree
-          npm install -g surge
-          # generate tree index on all directories
-          for directory in `find content/ -type d`
-            do
-              (cd $directory && tree -H '.' -L 1 --noreport --charset utf-8 | sed '/<p class="VERSION">/,/<\/p>/d' > index.html)
-           done
-           # Make meta.yaml as index
-           for file in $(find content -name 'meta.yaml' -type f)
-             do
-               PARENT_DIR=$(dirname $file);
-               cp ${PARENT_DIR}/meta.yaml ${PARENT_DIR}/index.html
-             done
-           export DEPLOY_DOMAIN=https://che-plugin-registry-main.surge.sh
-           echo "DEPLOY_DOMAIN=$DEPLOY_DOMAIN" >> $GITHUB_ENV
-           surge ./content --domain $DEPLOY_DOMAIN
       - name: Publish to gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.CHE_BOT_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION_DIR: main
         run: |
           export BUILD_DIR="$PWD/content"
