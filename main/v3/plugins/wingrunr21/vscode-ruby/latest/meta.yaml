@@ -1,0 +1,21 @@
+apiVersion: v2
+publisher: wingrunr21
+name: vscode-ruby
+version: latest
+type: VS Code extension
+displayName: VSCode Ruby
+title: VSCode Ruby
+description: 'Syntax highlighing, snippet, and language configuration support for Ruby'
+icon: /images/wingrunr21-vscode-ruby-icon.png
+category: Other
+repository: 'https://github.com/rubyide/vscode-ruby'
+firstPublicationDate: '2020-05-21'
+latestUpdateDate: '2021-09-05'
+spec:
+  containers:
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-dfefb0c'
+      name: vscode-ruby
+      memoryLimit: 1500Mi
+      memoryRequest: 20Mi
+  extensions:
+    - 'https://open-vsx.org/api/wingrunr21/vscode-ruby/0.27.0/file/wingrunr21.vscode-ruby-0.27.0.vsix'

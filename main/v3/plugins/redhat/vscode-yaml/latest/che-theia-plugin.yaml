@@ -12,13 +12,14 @@ metadata:
     - Linters
     - Snippets
     - Formatters
-  icon: /v3/images/redhat-vscode-yaml-icon.png
+  icon: /images/redhat-vscode-yaml-icon.png
 sidecar:
   name: vscode-yaml
   memoryLimit: 256Mi
+  memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'quay.io/eclipse/che-plugin-sidecar:node-c939ba4'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-c939ba4'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/redhat/vscode-yaml/0.14.0/file/redhat.vscode-yaml-0.14.0.vsix'

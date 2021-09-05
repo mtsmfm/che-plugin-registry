@@ -9,16 +9,17 @@ metadata:
   repository: 'https://github.com/zowe/vscode-extension-for-zowe'
   categories:
     - Other
-  icon: /v3/images/zowe-vscode-extension-for-zowe-icon.png
+  icon: /images/zowe-vscode-extension-for-zowe-icon.png
 sidecar:
   name: zowe-explorer
   memoryLimit: 512Mi
+  memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
   env:
     - name: ZOWE_CLI_HOME
       value: /projects/.zowe
-  image: 'quay.io/eclipse/che-plugin-sidecar:node-c939ba4'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-c939ba4'
 dependencies: []
 extensions:
-  - 'https://github.com/eclipse/che-che4z/releases/download/v2.2.0/vscode-extension-for-zowe-1.11.0-che.vsix'
+  - 'https://github.com/eclipse/che-che4z/releases/download/v2.4.0/vscode-extension-for-zowe-1.16.0-che.vsix'

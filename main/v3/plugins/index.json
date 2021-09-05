@@ -1,5 +1,18 @@
 [
   {
+    "id": "4ops/terraform/latest",
+    "description": "Terraform configuration language support (includes Terragrunt)",
+    "displayName": "Terraform",
+    "links": {
+      "self": "/v3/plugins/4ops/terraform/latest",
+      "plugin": "/v3/plugins/4ops/terraform/latest/che-theia-plugin.yaml"
+    },
+    "name": "terraform",
+    "publisher": "4ops",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
     "id": "asciidoctor/asciidoctor-vscode/latest",
     "description": "Provides rich language support for AsciiDoc.",
     "displayName": "AsciiDoc",
@@ -61,6 +74,19 @@
     },
     "name": "vscode-intelephense-client",
     "publisher": "bmewburn",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
+    "id": "broadcommfd/ccf/latest",
+    "description": "Extension for cobol control flow",
+    "displayName": "COBOL Control Flow",
+    "links": {
+      "self": "/v3/plugins/broadcommfd/ccf/latest",
+      "plugin": "/v3/plugins/broadcommfd/ccf/latest/che-theia-plugin.yaml"
+    },
+    "name": "ccf",
+    "publisher": "broadcommfd",
     "type": "VS Code extension",
     "version": "latest"
   },
@@ -377,6 +403,19 @@
     "version": "latest"
   },
   {
+    "id": "fbaligand/vscode-logstash-editor/latest",
+    "description": "Provide completion, documentation and auto-formatting for Logstash pipeline configuration files and Elasticsearch index template json files",
+    "displayName": "Logstash Editor",
+    "links": {
+      "self": "/v3/plugins/fbaligand/vscode-logstash-editor/latest",
+      "plugin": "/v3/plugins/fbaligand/vscode-logstash-editor/latest/che-theia-plugin.yaml"
+    },
+    "name": "vscode-logstash-editor",
+    "publisher": "fbaligand",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
     "id": "felixfbecker/php-debug/latest",
     "description": "Debug support for PHP with XDebug",
     "displayName": "PHP Debug",
@@ -663,6 +702,32 @@
     "version": "latest"
   },
   {
+    "id": "randomchance/logstash/latest",
+    "description": "Adds syntax highlighting for logstash configuration files.",
+    "displayName": "Logstash Configuration Syntax / Language Support",
+    "links": {
+      "self": "/v3/plugins/randomchance/logstash/latest",
+      "plugin": "/v3/plugins/randomchance/logstash/latest/che-theia-plugin.yaml"
+    },
+    "name": "logstash",
+    "publisher": "randomchance",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
+    "id": "rebornix/ruby/latest",
+    "description": "Ruby language support and debugging for Visual Studio Code",
+    "displayName": "Ruby",
+    "links": {
+      "self": "/v3/plugins/rebornix/ruby/latest",
+      "plugin": "/v3/plugins/rebornix/ruby/latest/che-theia-plugin.yaml"
+    },
+    "name": "ruby",
+    "publisher": "rebornix",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
     "id": "redhat-developer/che-omnisharp-plugin/latest",
     "description": "omnisharp-theia-plugin",
     "displayName": "omnisharp-theia-plugin",
@@ -910,27 +975,14 @@
     "version": "latest"
   },
   {
-    "id": "redhat/vscode-tekton-pipelines/latest",
-    "description": "Tekton Pipelines extension by Red Hat",
-    "displayName": "Tekton Pipelines",
+    "id": "redhat/vscode-quarkus/latest",
+    "description": "Quarkus Tools for Visual Studio Code",
+    "displayName": "Quarkus",
     "links": {
-      "self": "/v3/plugins/redhat/vscode-tekton-pipelines/latest",
-      "plugin": "/v3/plugins/redhat/vscode-tekton-pipelines/latest/che-theia-plugin.yaml"
+      "self": "/v3/plugins/redhat/vscode-quarkus/latest",
+      "plugin": "/v3/plugins/redhat/vscode-quarkus/latest/che-theia-plugin.yaml"
     },
-    "name": "vscode-tekton-pipelines",
-    "publisher": "redhat",
-    "type": "VS Code extension",
-    "version": "latest"
-  },
-  {
-    "id": "redhat/vscode-tekton/latest",
-    "description": "Tekton Pipelines extension by Red Hat",
-    "displayName": "Tekton Pipelines",
-    "links": {
-      "self": "/v3/plugins/redhat/vscode-tekton/latest",
-      "plugin": "/v3/plugins/redhat/vscode-tekton/latest/che-theia-plugin.yaml"
-    },
-    "name": "vscode-tekton",
+    "name": "vscode-quarkus",
     "publisher": "redhat",
     "type": "VS Code extension",
     "version": "latest"
@@ -1040,6 +1092,19 @@
     "version": "latest"
   },
   {
+    "id": "stylelint/vscode-stylelint/latest",
+    "description": "Modern CSS/SCSS/Less linter",
+    "displayName": "stylelint",
+    "links": {
+      "self": "/v3/plugins/stylelint/vscode-stylelint/latest",
+      "plugin": "/v3/plugins/stylelint/vscode-stylelint/latest/che-theia-plugin.yaml"
+    },
+    "name": "vscode-stylelint",
+    "publisher": "stylelint",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
     "id": "timonwong/shellcheck/latest",
     "description": "Integrates ShellCheck into VS Code, a linter for Shell scripts.",
     "displayName": "ShellCheck",
@@ -1088,6 +1153,19 @@
     },
     "name": "vetur",
     "publisher": "vuejs",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
+    "id": "wingrunr21/vscode-ruby/latest",
+    "description": "Syntax highlighing, snippet, and language configuration support for Ruby",
+    "displayName": "VSCode Ruby",
+    "links": {
+      "self": "/v3/plugins/wingrunr21/vscode-ruby/latest",
+      "plugin": "/v3/plugins/wingrunr21/vscode-ruby/latest/che-theia-plugin.yaml"
+    },
+    "name": "vscode-ruby",
+    "publisher": "wingrunr21",
     "type": "VS Code extension",
     "version": "latest"
   },

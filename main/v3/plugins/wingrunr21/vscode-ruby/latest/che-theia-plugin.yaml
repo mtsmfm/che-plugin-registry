@@ -1,0 +1,20 @@
+schemaVersion: 1.0.0
+metadata:
+  id: wingrunr21/vscode-ruby
+  publisher: wingrunr21
+  name: vscode-ruby
+  version: latest
+  displayName: VSCode Ruby
+  description: 'Syntax highlighing, snippet, and language configuration support for Ruby'
+  repository: 'https://github.com/rubyide/vscode-ruby'
+  categories:
+    - Other
+  icon: /images/wingrunr21-vscode-ruby-icon.png
+sidecar:
+  name: vscode-ruby
+  memoryLimit: 1500Mi
+  memoryRequest: 20Mi
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-dfefb0c'
+dependencies: []
+extensions:
+  - 'https://open-vsx.org/api/wingrunr21/vscode-ruby/0.27.0/file/wingrunr21.vscode-ruby-0.27.0.vsix'

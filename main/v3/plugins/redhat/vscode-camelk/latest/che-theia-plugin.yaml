@@ -9,15 +9,16 @@ metadata:
   repository: 'https://github.com/camel-tooling/vscode-camelk'
   categories:
     - Other
-  icon: /v3/images/redhat-vscode-camelk-icon.png
+  icon: /images/redhat-vscode-camelk-icon.png
 sidecar:
   name: vscode-camelk
   memoryLimit: 1Gi
+  memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'quay.io/eclipse/che-plugin-sidecar:camelk-2eb28e4'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:camelk-1fad8d4'
 dependencies:
   - ms-kubernetes-tools/vscode-kubernetes-tools
   - redhat/vscode-yaml
 extensions:
-  - 'https://download.jboss.org/jbosstools/vscode/stable/vscode-camelk/vscode-camelk-0.0.24-198.vsix'
+  - 'https://download.jboss.org/jbosstools/vscode/stable/vscode-camelk/vscode-camelk-0.0.26-336.vsix'

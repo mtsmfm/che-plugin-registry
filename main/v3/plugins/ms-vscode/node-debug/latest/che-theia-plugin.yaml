@@ -9,13 +9,14 @@ metadata:
   repository: 'https://github.com/Microsoft/vscode-node-debug.git'
   categories:
     - Debuggers
-  icon: /v3/images/ms-vscode-node-debug-icon.png
+  icon: /images/ms-vscode-node-debug-icon.png
 sidecar:
   name: vscode-node-debug
   memoryLimit: 512Mi
+  memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'quay.io/eclipse/che-plugin-sidecar:node-c939ba4'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-c939ba4'
 dependencies:
   - ms-vscode/node-debug2
 extensions:

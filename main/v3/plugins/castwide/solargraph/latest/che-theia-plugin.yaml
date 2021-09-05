@@ -11,17 +11,18 @@ metadata:
     - Programming Languages
     - Linters
     - Formatters
-  icon: /v3/images/castwide-solargraph-icon.png
+  icon: /images/castwide-solargraph-icon.png
 sidecar:
   name: vscode-ruby
   memoryLimit: 1500Mi
+  memoryRequest: 20Mi
   volumeMounts:
     - name: solargraph
       path: /home/theia/.solargraph
-  image: 'quay.io/eclipse/che-plugin-sidecar:ruby-c4f2aa1'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-dfefb0c'
 preferences:
   solargraph.bundlerPath: /usr/local/bin/bundle
   solargraph.commandPath: /usr/local/bundle/bin/solargraph
 dependencies: []
 extensions:
-  - 'https://open-vsx.org/api/castwide/solargraph/0.22.0/file/castwide.solargraph-0.22.0.vsix'
+  - 'https://open-vsx.org/api/castwide/solargraph/0.23.0/file/castwide.solargraph-0.23.0.vsix'

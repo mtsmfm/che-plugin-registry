@@ -13,13 +13,14 @@ metadata:
     - Debuggers
     - Azure
     - Other
-  icon: /v3/images/ms-kubernetes-tools-vscode-kubernetes-tools-icon.png
+  icon: /images/ms-kubernetes-tools-vscode-kubernetes-tools-icon.png
 sidecar:
   name: vscode-kubernetes-tools
   memoryLimit: 1Gi
+  memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'quay.io/eclipse/che-plugin-sidecar:kubernetes-tooling-d7b84fc'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:kubernetes-tooling-d7b84fc'
 dependencies:
   - redhat/vscode-yaml
 extensions:

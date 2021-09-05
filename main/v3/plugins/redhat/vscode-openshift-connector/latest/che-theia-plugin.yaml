@@ -9,16 +9,17 @@ metadata:
   repository: 'https://github.com/redhat-developer/vscode-openshift-tools.git'
   categories:
     - Other
-  icon: /v3/images/redhat-vscode-openshift-connector-icon.png
+  icon: /images/redhat-vscode-openshift-connector-icon.png
 sidecar:
   name: vscode-openshift-connector
   memoryLimit: 1500Mi
+  memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
   volumeMounts:
     - name: kube
       path: /home/theia/.kube
-  image: 'quay.io/eclipse/che-plugin-sidecar:openshift-tooling-2fcf341'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:openshift-tooling-2fcf341'
 dependencies:
   - che-theia/che-openshift-authentication-plugin
   - ms-kubernetes-tools/vscode-kubernetes-tools

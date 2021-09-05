@@ -11,7 +11,7 @@ events:
 components:
   - name: theia-ide
     container:
-      image: 'quay.io/eclipse/che-theia@sha256:9f0091db07ce4c26c8107541e4abf88834c5e61e2da7efe0828929cf68641a48'
+      image: 'quay.io/eclipse/che-theia:7.35.0'
       env:
         - name: THEIA_PLUGINS
           value: 'local-dir:///plugins'
@@ -28,10 +28,12 @@ components:
           path: /home/theia/.theia
       mountSources: true
       memoryLimit: 512M
+      cpuLimit: 1500m
+      cpuRequest: 100m
       endpoints:
         - name: theia
           attributes:
-            type: ide
+            type: main
             cookiesAuthEnabled: true
             discoverable: false
           targetPort: 3100
@@ -92,20 +94,26 @@ components:
           exposure: public
           secure: false
           protocol: wss
+    attributes:
+      app.kubernetes.io/component: che-theia
+      app.kubernetes.io/part-of: che-theia.eclipse.org
   - name: plugins
     volume: {}
   - name: theia-local
     volume: {}
   - name: che-machine-exec
     container:
-      image: 'quay.io/eclipse/che-machine-exec@sha256:da49975306c473f088037ce08edfe401445eedcb229d2e79a76a1534619e0fc5'
+      image: 'quay.io/eclipse/che-machine-exec:7.35.0'
       command:
         - /go/bin/che-machine-exec
         - '--url'
         - '0.0.0.0:3333'
+    attributes:
+      app.kubernetes.io/component: machine-exec
+      app.kubernetes.io/part-of: che-theia.eclipse.org
   - name: remote-runtime-injector
     container:
-      image: 'quay.io/eclipse/che-theia-endpoint-runtime-binary@sha256:be46fb4248d3fd818017555857ff436d02bb29161e273bc7a9a9da15b7965453'
+      image: 'quay.io/eclipse/che-theia-endpoint-runtime-binary:7.35.0'
       env:
         - name: PLUGIN_REMOTE_ENDPOINT_EXECUTABLE
           value: /remote-endpoint/plugin-remote-endpoint
@@ -114,6 +122,9 @@ components:
       volumeMounts:
         - name: remote-endpoint
           path: /remote-endpoint
+    attributes:
+      app.kubernetes.io/component: remote-runtime-injector
+      app.kubernetes.io/part-of: che-theia.eclipse.org
   - name: remote-endpoint
     volume:
       ephemeral: true

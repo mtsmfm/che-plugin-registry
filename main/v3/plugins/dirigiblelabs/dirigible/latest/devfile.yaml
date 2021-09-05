@@ -4,7 +4,7 @@ metadata:
 components:
   - name: eclipse-dirigible
     container:
-      image: 'index.docker.io/dirigiblelabs/dirigible-openshift@sha256:3365635d1e0403697dea0674bbbdc749c4be2db29818a93b8e1e53c3c5144113'
+      image: 'docker.io/dirigiblelabs/dirigible-openshift:3.4.0'
       env:
         - name: DIRIGIBLE_DATABASE_PROVIDER
           value: local
@@ -31,7 +31,8 @@ components:
       endpoints:
         - name: dirigible
           attributes:
-            type: ide
+            type: main
           targetPort: 8080
           exposure: public
           protocol: http
+    attributes: {}

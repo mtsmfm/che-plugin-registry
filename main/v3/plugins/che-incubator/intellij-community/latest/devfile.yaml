@@ -4,7 +4,7 @@ metadata:
 components:
   - name: intellij-novnc
     container:
-      image: 'quay.io/che-incubator/che-editor-intellij-community@sha256:29025db859268f5dcf21ba6eb4e284744b53c92d6d23514e565a0211606f6863'
+      image: 'quay.io/che-incubator/che-editor-intellij-community:2020.2-cdc002c'
       volumeMounts:
         - name: idea-configuration
           path: /JetBrains/IdeaIC
@@ -13,11 +13,12 @@ components:
       endpoints:
         - name: intellij
           attributes:
-            type: ide
+            type: main
             discoverable: false
             path: /vnc.html?resize=remote&autoconnect=true&reconnect=true
           targetPort: 8080
           exposure: public
           protocol: http
+    attributes: {}
   - name: idea-configuration
     volume: {}

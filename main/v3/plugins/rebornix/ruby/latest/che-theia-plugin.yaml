@@ -1,0 +1,25 @@
+schemaVersion: 1.0.0
+metadata:
+  id: rebornix/ruby
+  publisher: rebornix
+  name: ruby
+  version: latest
+  displayName: Ruby
+  description: Ruby language support and debugging for Visual Studio Code
+  repository: 'https://github.com/rubyide/vscode-ruby.git'
+  categories:
+    - Programming Languages
+    - Debuggers
+    - Linters
+    - Snippets
+    - Formatters
+  icon: /images/rebornix-ruby-icon.png
+sidecar:
+  name: vscode-ruby
+  memoryLimit: 1500Mi
+  memoryRequest: 20Mi
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-dfefb0c'
+dependencies:
+  - wingrunr21/vscode-ruby
+extensions:
+  - 'https://open-vsx.org/api/rebornix/ruby/0.28.0/file/rebornix.ruby-0.28.0.vsix'

@@ -1,0 +1,22 @@
+apiVersion: v2
+publisher: rebornix
+name: ruby
+version: latest
+type: VS Code extension
+displayName: Ruby
+title: Ruby
+description: Ruby language support and debugging for Visual Studio Code
+icon: /images/rebornix-ruby-icon.png
+category: Programming Languages
+repository: 'https://github.com/rubyide/vscode-ruby.git'
+firstPublicationDate: '2021-01-05'
+latestUpdateDate: '2021-09-05'
+spec:
+  containers:
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-dfefb0c'
+      name: vscode-ruby
+      memoryLimit: 1500Mi
+      memoryRequest: 20Mi
+  extensions:
+    - 'https://open-vsx.org/api/rebornix/ruby/0.28.0/file/rebornix.ruby-0.28.0.vsix'
+    - 'https://open-vsx.org/api/wingrunr21/vscode-ruby/0.27.0/file/wingrunr21.vscode-ruby-0.27.0.vsix'

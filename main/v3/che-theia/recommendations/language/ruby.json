@@ -2,19 +2,34 @@
   {
     "category": "Programming Languages",
     "ids": [
-      "castwide/solargraph"
+      "castwide/solargraph",
+      "rebornix/ruby"
     ]
   },
   {
     "category": "Linters",
     "ids": [
-      "castwide/solargraph"
+      "castwide/solargraph",
+      "rebornix/ruby"
     ]
   },
   {
     "category": "Formatters",
     "ids": [
-      "castwide/solargraph"
+      "castwide/solargraph",
+      "rebornix/ruby"
+    ]
+  },
+  {
+    "category": "Debuggers",
+    "ids": [
+      "rebornix/ruby"
+    ]
+  },
+  {
+    "category": "Snippets",
+    "ids": [
+      "rebornix/ruby"
     ]
   }
 ]

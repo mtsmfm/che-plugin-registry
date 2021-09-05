@@ -11,12 +11,13 @@ metadata:
     - Programming Languages
     - Linters
     - Formatters
-  icon: /v3/images/bmewburn-vscode-intelephense-client-icon.png
+  icon: /images/bmewburn-vscode-intelephense-client-icon.png
 sidecar:
   memoryLimit: 1Gi
+  memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'quay.io/eclipse/che-plugin-sidecar:php-c939ba4'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-c939ba4'
 dependencies: []
 extensions:
   - 'https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-intelephense/vscode-intelephense-client-1.5.4.vsix'
