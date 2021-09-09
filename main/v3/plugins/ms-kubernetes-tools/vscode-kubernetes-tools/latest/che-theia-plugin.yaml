@@ -20,7 +20,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:kubernetes-tooling-7807219'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:kubernetes-tooling-147861f'
 dependencies:
   - redhat/vscode-yaml
 extensions:

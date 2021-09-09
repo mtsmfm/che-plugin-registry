@@ -13,7 +13,7 @@ firstPublicationDate: '2019-09-19'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:bazel-7807219'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:bazel-147861f'
       name: vscode-bazel
       volumes:
         - name: bazelcache

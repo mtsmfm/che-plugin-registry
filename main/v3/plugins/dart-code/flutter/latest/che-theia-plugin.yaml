@@ -20,7 +20,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:flutter-7807219'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:flutter-147861f'
 dependencies:
   - dart-code/dart-code
   - redhat/vscode-yaml

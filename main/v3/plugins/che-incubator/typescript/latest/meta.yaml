@@ -16,7 +16,7 @@ deprecate:
   migrateTo: vscode/typescript-language-features/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-7807219'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-147861f'
       memoryLimit: 512Mi
       memoryRequest: 20Mi
       cpuRequest: 30m

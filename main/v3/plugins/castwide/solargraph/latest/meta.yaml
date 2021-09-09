@@ -13,7 +13,7 @@ firstPublicationDate: '2021-05-30'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-7807219'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-147861f'
       name: vscode-ruby
       volumes:
         - name: solargraph

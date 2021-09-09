@@ -17,7 +17,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:shellcheck-7807219'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:shellcheck-147861f'
 preferences:
   shellcheck.executablePath: /bin/shellcheck
 dependencies: []

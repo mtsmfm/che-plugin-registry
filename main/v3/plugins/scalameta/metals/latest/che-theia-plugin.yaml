@@ -23,7 +23,7 @@ sidecar:
       path: /home/theia/.ivy2
     - name: cache
       path: /home/theia/.cache
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:scala-7807219'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:scala-147861f'
 dependencies:
   - scala-lang/scala
 extensions:

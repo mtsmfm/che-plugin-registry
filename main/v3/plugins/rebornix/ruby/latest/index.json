@@ -13,10 +13,12 @@ firstPublicationDate: '2021-01-05'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-7807219'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-147861f'
       name: vscode-ruby
       memoryLimit: 1500Mi
       memoryRequest: 20Mi
+      cpuRequest: 30m
+      cpuLimit: 500m
   extensions:
     - 'https://open-vsx.org/api/rebornix/ruby/0.28.0/file/rebornix.ruby-0.28.0.vsix'
     - 'https://open-vsx.org/api/wingrunr21/vscode-ruby/0.27.0/file/wingrunr21.vscode-ruby-0.27.0.vsix'

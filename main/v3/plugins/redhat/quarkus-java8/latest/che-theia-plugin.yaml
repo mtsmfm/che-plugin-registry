@@ -19,7 +19,7 @@ sidecar:
   volumeMounts:
     - name: m2
       path: /home/theia/.m2
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-7807219'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-147861f'
 preferences:
   java.server.launchMode: Standard
 dependencies:
