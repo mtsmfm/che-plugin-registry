@@ -13,7 +13,7 @@ firstPublicationDate: '2020-08-07'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-2d6c5ec'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-1e035d8'
       name: vscode-node-debug
       memoryLimit: 512Mi
       memoryRequest: 20Mi

@@ -16,7 +16,7 @@ deprecate:
   migrateTo: redhat/java/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-2d6c5ec'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-1e035d8'
       name: vscode-java
       volumes:
         - name: m2

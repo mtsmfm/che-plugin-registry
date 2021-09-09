@@ -19,7 +19,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-2d6c5ec'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-1e035d8'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/redhat/vscode-yaml/0.14.0/file/redhat.vscode-yaml-0.14.0.vsix'

@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-2d6c5ec'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-1e035d8'
 dependencies: []
 extensions:
   - 'https://github.com/PizzaFactory/xtend-ide-extensions/releases/download/v0.1.0/xtend-lang-0.1.0.vsix'

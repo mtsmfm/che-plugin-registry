@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:clang-2d6c5ec'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:clang-1e035d8'
 dependencies:
   - eclipse-cdt/cdt-gdb-vscode
   - llvm-vs-code-extensions/vscode-clangd

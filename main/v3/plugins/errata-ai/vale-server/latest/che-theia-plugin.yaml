@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:vale-2d6c5ec'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:vale-1e035d8'
 dependencies: []
 extensions:
   - 'https://github.com/redhat-developer/codeready-workspaces-vscode-extensions/releases/download/v8130b13/vale-vscode-v0.14.2.vsix'

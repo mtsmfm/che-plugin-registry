@@ -16,7 +16,7 @@ deprecate:
   migrateTo: asciidoctor/asciidoctor-vscode/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:asciidoc-2d6c5ec'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:asciidoc-1e035d8'
       name: asciidoctor-vscode
       volumes:
         - name: documents

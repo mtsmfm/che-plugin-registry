@@ -13,7 +13,7 @@ firstPublicationDate: '2019-12-03'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dotnet-2d6c5ec'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dotnet-1e035d8'
       name: theia-omnisharp
       volumes:
         - name: nuget

@@ -13,7 +13,7 @@ firstPublicationDate: '2021-01-05'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-2d6c5ec'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-1e035d8'
       name: vscode-ruby
       memoryLimit: 1500Mi
       memoryRequest: 20Mi

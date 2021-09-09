@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dotnet-2d6c5ec'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dotnet-1e035d8'
 dependencies: []
 extensions:
   - 'https://github.com/redhat-developer/netcoredbg-theia-plugin/releases/download/v0.0.3/netcoredbg_theia_plugin.theia'
