@@ -13,7 +13,7 @@ firstPublicationDate: '2021-05-20'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-1e035d8'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-791654c'
       name: vscode-xml
       memoryLimit: 768Mi
       memoryRequest: 20Mi

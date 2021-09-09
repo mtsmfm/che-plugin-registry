@@ -13,7 +13,7 @@ firstPublicationDate: '2021-02-11'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-1e035d8'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-791654c'
       name: vscode-java
       volumes:
         - name: m2

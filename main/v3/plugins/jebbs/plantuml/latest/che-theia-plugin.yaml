@@ -19,7 +19,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:plantuml-1e035d8'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:plantuml-791654c'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/jebbs/plantuml/2.14.0/file/jebbs.plantuml-2.14.0.vsix'

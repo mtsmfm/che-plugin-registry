@@ -19,7 +19,7 @@ sidecar:
   volumeMounts:
     - name: nuget
       path: /home/theia/.nuget
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dotnet-1e035d8'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dotnet-791654c'
 dependencies: []
 extensions:
   - 'https://github.com/redhat-developer/omnisharp-theia-plugin/releases/download/v0.0.6/omnisharp_theia_plugin.theia'

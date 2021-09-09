@@ -13,7 +13,7 @@ firstPublicationDate: '2021-07-21'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:camelk-1e035d8'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:camelk-791654c'
       name: vscode-camelk
       memoryLimit: 1Gi
       memoryRequest: 20Mi

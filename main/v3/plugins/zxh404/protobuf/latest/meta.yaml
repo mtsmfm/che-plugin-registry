@@ -16,7 +16,7 @@ deprecate:
   migrateTo: zxh404/vscode-proto3/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:protobuf-1e035d8'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:protobuf-791654c'
       name: vscode-proto3
       memoryLimit: 256Mi
       memoryRequest: 20Mi

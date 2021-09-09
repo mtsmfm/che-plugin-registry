@@ -28,7 +28,7 @@ sidecar:
   volumeMounts:
     - name: venv
       path: /home/theia/.venv
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:python-1e035d8'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:python-791654c'
 dependencies: []
 extensions:
   - 'https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix'

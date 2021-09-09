@@ -13,7 +13,7 @@ firstPublicationDate: '2021-01-12'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-1e035d8'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-791654c'
       name: vscode-yaml
       memoryLimit: 256Mi
       memoryRequest: 20Mi

@@ -17,7 +17,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-1e035d8'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-791654c'
 dependencies: []
 extensions:
   - 'https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-intelephense/vscode-intelephense-client-1.5.4.vsix'

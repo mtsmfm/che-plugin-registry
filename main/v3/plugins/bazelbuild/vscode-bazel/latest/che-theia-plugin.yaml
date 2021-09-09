@@ -19,7 +19,7 @@ sidecar:
   volumeMounts:
     - name: bazelcache
       path: /home/theia/.cache/bazel
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:bazel-1e035d8'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:bazel-791654c'
 dependencies: []
 extensions:
   - 'https://github.com/bazelbuild/vscode-bazel/releases/download/0.3.0/vscode-bazel-0.3.0.vsix'

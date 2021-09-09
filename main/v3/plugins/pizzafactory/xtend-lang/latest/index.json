@@ -13,7 +13,7 @@ firstPublicationDate: '2019-08-12'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-1e035d8'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-791654c'
       name: vscode-xtend-lang
       memoryLimit: 768Mi
       memoryRequest: 20Mi
