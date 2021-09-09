@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-7807219'
 dependencies:
   - redhat/java
   - vscjava/vscode-java-debug

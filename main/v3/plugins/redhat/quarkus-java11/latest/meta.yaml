@@ -16,7 +16,7 @@ deprecate:
   migrateTo: redhat/vscode-quarkus/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-791654c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-7807219'
       name: vscode-quarkus
       volumes:
         - name: m2

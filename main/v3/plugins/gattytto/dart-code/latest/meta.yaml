@@ -16,7 +16,7 @@ deprecate:
   migrateTo: dart-code/dart-code/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dart-791654c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dart-7807219'
       name: vscode-dart
       memoryLimit: 2Gi
       memoryRequest: 20Mi

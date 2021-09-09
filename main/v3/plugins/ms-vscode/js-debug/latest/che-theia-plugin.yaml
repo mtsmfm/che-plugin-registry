@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-7807219'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/ms-vscode/js-debug/1.52.2/file/ms-vscode.js-debug-1.52.2.vsix'

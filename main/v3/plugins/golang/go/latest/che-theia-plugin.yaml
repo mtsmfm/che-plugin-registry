@@ -23,7 +23,7 @@ sidecar:
   env:
     - name: GOPATH
       value: '/go:$(CHE_PROJECTS_ROOT)'
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:go-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:go-7807219'
 dependencies: []
 extensions:
   - 'https://github.com/golang/vscode-go/releases/download/v0.23.0/go-0.23.0.vsix'

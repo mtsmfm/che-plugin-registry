@@ -21,7 +21,7 @@ sidecar:
   volumeMounts:
     - name: solargraph
       path: /home/theia/.solargraph
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-7807219'
 preferences:
   solargraph.bundlerPath: /usr/local/bin/bundle
   solargraph.commandPath: /usr/local/bundle/bin/solargraph

@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-7807219'
 dependencies: []
 extensions:
   - 'https://github.com/PizzaFactory/xtext-ide-extensions/releases/download/v0.4.0/xtext-lang-0.4.0.vsix'

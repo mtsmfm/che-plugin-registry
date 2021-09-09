@@ -19,7 +19,7 @@ sidecar:
   volumeMounts:
     - name: kube
       path: /home/theia/.kube
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:openshift-tooling-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:openshift-tooling-7807219'
 dependencies:
   - che-theia/che-openshift-authentication-plugin
   - ms-kubernetes-tools/vscode-kubernetes-tools

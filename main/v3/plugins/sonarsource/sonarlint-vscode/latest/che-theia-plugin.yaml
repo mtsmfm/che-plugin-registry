@@ -19,7 +19,7 @@ sidecar:
   volumeMounts:
     - name: m2
       path: /home/theia/.m2
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:sonarlint-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:sonarlint-7807219'
 dependencies:
   - vscode/typescript-language-features
 extensions:

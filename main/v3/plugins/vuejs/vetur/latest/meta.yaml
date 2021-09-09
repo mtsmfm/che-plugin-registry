@@ -16,7 +16,7 @@ deprecate:
   migrateTo: octref/vetur/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-791654c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-7807219'
       name: vetur
       memoryLimit: 512Mi
       memoryRequest: 20Mi

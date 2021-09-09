@@ -13,7 +13,7 @@ firstPublicationDate: '2021-03-08'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:vale-791654c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:vale-7807219'
       name: vscode-vale
       memoryLimit: 512Mi
       memoryRequest: 20Mi

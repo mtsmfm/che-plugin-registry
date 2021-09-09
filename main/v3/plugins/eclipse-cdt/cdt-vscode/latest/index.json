@@ -13,7 +13,7 @@ firstPublicationDate: '2019-12-18'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:clang-791654c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:clang-7807219'
       name: cpp-plugins
       memoryLimit: 512Mi
       memoryRequest: 20Mi

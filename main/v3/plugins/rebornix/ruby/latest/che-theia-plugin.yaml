@@ -18,7 +18,7 @@ sidecar:
   name: vscode-ruby
   memoryLimit: 1500Mi
   memoryRequest: 20Mi
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-791654c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-7807219'
 dependencies:
   - wingrunr21/vscode-ruby
 extensions:

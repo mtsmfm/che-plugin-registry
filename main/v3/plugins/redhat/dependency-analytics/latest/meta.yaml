@@ -16,7 +16,7 @@ deprecate:
   migrateTo: redhat/fabric8-analytics/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dependency-analytics-791654c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dependency-analytics-7807219'
       name: dependency-analytics
       memoryLimit: 512Mi
       memoryRequest: 20Mi

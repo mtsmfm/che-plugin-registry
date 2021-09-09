@@ -13,7 +13,7 @@ firstPublicationDate: '2020-09-24'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-791654c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-7807219'
       name: vscode-microp
       volumes:
         - name: m2
