@@ -13,7 +13,7 @@ firstPublicationDate: '2021-02-05'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:sonarlint-2fcf341'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:sonarlint-2d6c5ec'
       name: vscode-sonarlint
       volumes:
         - name: m2

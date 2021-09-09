@@ -13,7 +13,7 @@ firstPublicationDate: '2021-03-05'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:go-ae6cfa4'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:go-2d6c5ec'
       name: vscode-go
       memoryLimit: 512Mi
       memoryRequest: 20Mi

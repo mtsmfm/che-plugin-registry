@@ -13,13 +13,15 @@ firstPublicationDate: '2021-05-30'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-dfefb0c'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-2d6c5ec'
       name: vscode-ruby
       volumes:
         - name: solargraph
           mountPath: /home/theia/.solargraph
       memoryLimit: 1500Mi
       memoryRequest: 20Mi
+      cpuRequest: 30m
+      cpuLimit: 500m
       env:
         - name: CHE_THEIA_SIDECAR_PREFERENCES
           value: '{"solargraph.bundlerPath":"/usr/local/bin/bundle","solargraph.commandPath":"/usr/local/bundle/bin/solargraph"}'

@@ -13,7 +13,7 @@ firstPublicationDate: '2021-02-09'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-c939ba4'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-2d6c5ec'
       memoryLimit: 512Mi
       memoryRequest: 20Mi
       cpuRequest: 30m

@@ -16,7 +16,7 @@ deprecate:
   migrateTo: felixfbecker/php-debug/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-c939ba4'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-2d6c5ec'
       name: php-debugger
       memoryLimit: 256Mi
       memoryRequest: 20Mi

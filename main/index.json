@@ -611,6 +611,19 @@
     "version": "latest"
   },
   {
+    "id": "ms-vscode/js-debug/latest",
+    "description": "An extension for debugging Node.js programs and Chrome.",
+    "displayName": "JavaScript Debugger",
+    "links": {
+      "self": "/v3/plugins/ms-vscode/js-debug/latest",
+      "plugin": "/v3/plugins/ms-vscode/js-debug/latest/che-theia-plugin.yaml"
+    },
+    "name": "js-debug",
+    "publisher": "ms-vscode",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
     "id": "ms-vscode/node-debug/latest",
     "description": "Node.js debugging support (versions < 8.0)",
     "displayName": "Node Debug (legacy)",

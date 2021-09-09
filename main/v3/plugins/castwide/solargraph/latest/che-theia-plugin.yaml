@@ -16,10 +16,12 @@ sidecar:
   name: vscode-ruby
   memoryLimit: 1500Mi
   memoryRequest: 20Mi
+  cpuLimit: 500m
+  cpuRequest: 30m
   volumeMounts:
     - name: solargraph
       path: /home/theia/.solargraph
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-dfefb0c'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-2d6c5ec'
 preferences:
   solargraph.bundlerPath: /usr/local/bin/bundle
   solargraph.commandPath: /usr/local/bundle/bin/solargraph

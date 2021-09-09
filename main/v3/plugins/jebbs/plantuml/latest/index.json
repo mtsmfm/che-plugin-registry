@@ -13,9 +13,11 @@ firstPublicationDate: '2021-01-28'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:plantuml-013807b'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:plantuml-2d6c5ec'
       name: vscode-plantuml
       memoryLimit: 512Mi
       memoryRequest: 20Mi
+      cpuRequest: 30m
+      cpuLimit: 500m
   extensions:
     - 'https://open-vsx.org/api/jebbs/plantuml/2.14.0/file/jebbs.plantuml-2.14.0.vsix'

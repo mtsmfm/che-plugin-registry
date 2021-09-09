@@ -77,7 +77,7 @@ spec:
         secure: true
       public: true
   containers:
-    - image: 'quay.io/eclipse/che-theia:7.35.0'
+    - image: 'quay.io/eclipse/che-theia:7.36.0'
       env:
         - name: THEIA_PLUGINS
           value: 'local-dir:///plugins'
@@ -103,7 +103,7 @@ spec:
         - exposedPort: 13131
         - exposedPort: 13132
         - exposedPort: 13133
-    - image: 'quay.io/eclipse/che-machine-exec:7.35.0'
+    - image: 'quay.io/eclipse/che-machine-exec:7.36.0'
       command:
         - /go/bin/che-machine-exec
         - '--url'
@@ -112,7 +112,7 @@ spec:
       ports:
         - exposedPort: 3333
   initContainers:
-    - image: 'quay.io/eclipse/che-theia-endpoint-runtime-binary:7.35.0'
+    - image: 'quay.io/eclipse/che-theia-endpoint-runtime-binary:7.36.0'
       env:
         - name: PLUGIN_REMOTE_ENDPOINT_EXECUTABLE
           value: /remote-endpoint/plugin-remote-endpoint

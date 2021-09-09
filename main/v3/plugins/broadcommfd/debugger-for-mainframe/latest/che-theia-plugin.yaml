@@ -17,7 +17,7 @@ sidecar:
   cpuRequest: 30m
   name: debugger-for-mainframe
   mountSources: true
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-23e57d6'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-2d6c5ec'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/BroadcomMFD/debugger-for-mainframe/1.5.0/file/BroadcomMFD.debugger-for-mainframe-1.5.0.vsix'

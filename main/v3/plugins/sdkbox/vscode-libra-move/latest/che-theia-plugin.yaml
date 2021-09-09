@@ -17,7 +17,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-1273116'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-2d6c5ec'
 dependencies: []
 extensions:
   - 'https://github.com/pizzafactory-contorno/vscode-libra-move/releases/download/v0.0.10-ddc0d3d/vscode-libra-move-0.0.10.vsix'

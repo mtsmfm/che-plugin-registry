@@ -13,7 +13,7 @@ firstPublicationDate: '2020-08-10'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:kubernetes-tooling-d7b84fc'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:kubernetes-tooling-2d6c5ec'
       name: vscode-kubernetes-tools
       memoryLimit: 1Gi
       memoryRequest: 20Mi

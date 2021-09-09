@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-c939ba4'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-2d6c5ec'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/stylelint/vscode-stylelint/0.86.0/file/stylelint.vscode-stylelint-0.86.0.vsix'

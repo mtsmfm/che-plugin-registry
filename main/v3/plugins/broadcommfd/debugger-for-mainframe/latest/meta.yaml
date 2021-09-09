@@ -16,7 +16,7 @@ deprecate:
   migrateTo: broadcommfd/debugger-for-mainframe/1.5.0/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-23e57d6'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-2d6c5ec'
       name: debugger-for-mainframe
       memoryLimit: 512Mi
       memoryRequest: 20Mi

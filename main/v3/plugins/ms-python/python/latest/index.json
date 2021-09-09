@@ -13,7 +13,7 @@ firstPublicationDate: '2020-07-16'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:python-78cd6a9'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:python-2d6c5ec'
       name: vscode-python
       volumes:
         - name: venv

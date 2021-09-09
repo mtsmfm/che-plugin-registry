@@ -15,7 +15,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-c939ba4'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-2d6c5ec'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/vscode/typescript-language-features/1.49.3/file/vscode.typescript-language-features-1.49.3.vsix'

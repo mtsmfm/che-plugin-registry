@@ -20,7 +20,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:rust-52f9e9a'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:rust-2d6c5ec'
 dependencies: []
 extensions:
   - 'https://github.com/rust-lang/vscode-rust/releases/download/v0.7.8/rust.vsix'

@@ -13,7 +13,7 @@ firstPublicationDate: '2020-09-23'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-c939ba4'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-2d6c5ec'
       memoryLimit: 1Gi
       memoryRequest: 20Mi
       cpuRequest: 30m

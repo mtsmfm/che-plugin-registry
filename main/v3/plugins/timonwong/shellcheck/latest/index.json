@@ -13,7 +13,7 @@ firstPublicationDate: '2021-03-08'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:shellcheck-dcf09b9'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:shellcheck-2d6c5ec'
       name: shellcheck
       memoryLimit: 256Mi
       memoryRequest: 20Mi

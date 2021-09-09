@@ -13,7 +13,7 @@ firstPublicationDate: '2020-05-13'
 latestUpdateDate: '2021-09-09'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:rust-52f9e9a'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:rust-2d6c5ec'
       name: vscode-rust
       memoryLimit: 1Gi
       memoryRequest: 20Mi
