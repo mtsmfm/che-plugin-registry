@@ -10,7 +10,7 @@ icon: /images/scalameta-metals-icon.png
 category: Programming Languages
 repository: 'https://github.com/scalameta/metals-vscode.git'
 firstPublicationDate: '2021-02-24'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:scala-1be6877'

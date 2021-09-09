@@ -10,7 +10,7 @@ icon: /images/llvm-vs-code-extensions-vscode-clangd-icon.png
 category: Programming Languages
 repository: 'https://github.com/clangd/vscode-clangd.git'
 firstPublicationDate: '2020-06-03'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:clang-6bcfd7b'

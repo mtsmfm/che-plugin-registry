@@ -10,7 +10,7 @@ icon: /images/sonarsource-sonarlint-vscode-icon.png
 category: Linters
 repository: 'https://github.com/SonarSource/sonarlint-vscode.git'
 firstPublicationDate: '2021-02-05'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:sonarlint-2fcf341'

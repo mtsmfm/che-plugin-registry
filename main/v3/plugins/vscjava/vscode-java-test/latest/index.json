@@ -10,7 +10,7 @@ icon: /images/vscjava-vscode-java-test-icon.png
 category: Other
 repository: 'https://github.com/Microsoft/vscode-java-test'
 firstPublicationDate: '2021-03-03'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-23e57d6'

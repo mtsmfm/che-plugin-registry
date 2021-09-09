@@ -10,7 +10,7 @@ icon: /images/errata-ai-vale-server-icon.png
 category: Linters
 repository: 'https://github.com/errata-ai/vale-vscode.git'
 firstPublicationDate: '2021-03-08'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:vale-a31d37a'

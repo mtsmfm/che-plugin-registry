@@ -10,7 +10,7 @@ icon: /images/stylelint-vscode-stylelint-icon.png
 category: Linters
 repository: 'https://github.com/stylelint/vscode-stylelint'
 firstPublicationDate: '2021-02-09'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-c939ba4'

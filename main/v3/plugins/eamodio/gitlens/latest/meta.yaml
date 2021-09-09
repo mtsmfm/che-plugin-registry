@@ -10,7 +10,7 @@ icon: /images/eamodio-gitlens-icon.png
 category: Other
 repository: 'https://github.com/eamodio/vscode-gitlens.git'
 firstPublicationDate: '2021-07-13'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   extensions:
     - 'https://open-vsx.org/api/eamodio/gitlens/11.6.0/file/eamodio.gitlens-11.6.0.vsix'

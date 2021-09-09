@@ -10,7 +10,7 @@ icon: /images/timonwong-shellcheck-icon.png
 category: Linters
 repository: 'https://github.com/timonwong/vscode-shellcheck.git'
 firstPublicationDate: '2021-03-08'
-latestUpdateDate: '2021-09-05'
+latestUpdateDate: '2021-09-09'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:shellcheck-dcf09b9'
