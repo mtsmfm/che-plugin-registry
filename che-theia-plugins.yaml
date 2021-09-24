@@ -878,3 +878,7 @@ plugins:
       cpuLimit: 500m
       cpuRequest: 30m
     extension: https://open-vsx.org/api/wingrunr21/vscode-ruby/0.27.0/file/wingrunr21.vscode-ruby-0.27.0.vsix
+  - repository:
+      url: https://github.com/stef-levesque/vscode-3dviewer
+      revision: 95408588d4f2987f0ae579b83e543f3f364bc467
+    extension: https://github.com/mtsmfm/publish-extensions/releases/download/dummy/slevesque.vscode-3dviewer.vsix
