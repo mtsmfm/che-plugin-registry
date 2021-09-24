@@ -10,10 +10,10 @@ icon: /images/zowe-vscode-extension-for-zowe-icon.png
 category: Other
 repository: 'https://github.com/zowe/vscode-extension-for-zowe'
 firstPublicationDate: '2021-06-15'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-8cd78a5'
       name: zowe-explorer
       memoryLimit: 512Mi
       memoryRequest: 20Mi

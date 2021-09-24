@@ -10,10 +10,10 @@ icon: /images/bazelbuild-vscode-bazel-icon.png
 category: Programming Languages
 repository: 'https://github.com/bazelbuild/vscode-bazel.git'
 firstPublicationDate: '2019-09-19'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:bazel-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:bazel-8cd78a5'
       name: vscode-bazel
       volumes:
         - name: bazelcache

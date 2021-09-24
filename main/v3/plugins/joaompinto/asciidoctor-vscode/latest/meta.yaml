@@ -10,13 +10,13 @@ icon: /images/asciidoctor-asciidoctor-vscode-icon.png
 category: Programming Languages
 repository: 'https://github.com/asciidoctor/asciidoctor-vscode'
 firstPublicationDate: '2021-03-09'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 deprecate:
   automigrate: true
   migrateTo: asciidoctor/asciidoctor-vscode/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:asciidoc-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:asciidoc-8cd78a5'
       name: asciidoctor-vscode
       volumes:
         - name: documents

@@ -10,10 +10,10 @@ icon: /images/redhat-vscode-camelk-icon.png
 category: Other
 repository: 'https://github.com/camel-tooling/vscode-camelk'
 firstPublicationDate: '2021-07-21'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:camelk-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:camelk-8cd78a5'
       name: vscode-camelk
       memoryLimit: 1Gi
       memoryRequest: 20Mi

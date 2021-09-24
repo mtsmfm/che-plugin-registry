@@ -10,13 +10,13 @@ icon: /images/dart-code-dart-code-icon.png
 category: Programming Languages
 repository: 'https://github.com/Dart-Code/Dart-Code.git'
 firstPublicationDate: '2020-09-09'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 deprecate:
   automigrate: true
   migrateTo: dart-code/dart-code/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dart-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:dart-8cd78a5'
       name: vscode-dart
       memoryLimit: 2Gi
       memoryRequest: 20Mi

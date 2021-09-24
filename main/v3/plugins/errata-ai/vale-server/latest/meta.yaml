@@ -10,10 +10,10 @@ icon: /images/errata-ai-vale-server-icon.png
 category: Linters
 repository: 'https://github.com/errata-ai/vale-vscode.git'
 firstPublicationDate: '2021-03-08'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:vale-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:vale-8cd78a5'
       name: vscode-vale
       memoryLimit: 512Mi
       memoryRequest: 20Mi

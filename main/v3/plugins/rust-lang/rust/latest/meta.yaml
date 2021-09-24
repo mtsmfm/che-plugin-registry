@@ -10,10 +10,10 @@ icon: /images/rust-lang-rust-icon.png
 category: Programming Languages
 repository: 'https://github.com/rust-lang/rls-vscode'
 firstPublicationDate: '2020-05-13'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:rust-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:rust-8cd78a5'
       name: vscode-rust
       memoryLimit: 1Gi
       memoryRequest: 20Mi

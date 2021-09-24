@@ -10,10 +10,10 @@ icon: /images/vscjava-vscode-java-test-icon.png
 category: Other
 repository: 'https://github.com/Microsoft/vscode-java-test'
 firstPublicationDate: '2021-03-03'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java-8cd78a5'
       name: vscode-java
       memoryLimit: 1500Mi
       memoryRequest: 20Mi

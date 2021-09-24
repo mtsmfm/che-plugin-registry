@@ -481,6 +481,19 @@
     "version": "latest"
   },
   {
+    "id": "ivory-lab/jenkinsfile-support/latest",
+    "description": "Extension provides basic jenkinsfile support (highlighting, snippets and completion)",
+    "displayName": "JenkinsFile Support",
+    "links": {
+      "self": "/v3/plugins/ivory-lab/jenkinsfile-support/latest",
+      "plugin": "/v3/plugins/ivory-lab/jenkinsfile-support/latest/che-theia-plugin.yaml"
+    },
+    "name": "jenkinsfile-support",
+    "publisher": "ivory-lab",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
     "id": "jebbs/plantuml/latest",
     "description": "Rich PlantUML support for Visual Studio Code.",
     "displayName": "PlantUML",
@@ -1088,6 +1101,19 @@
     },
     "name": "vscode-libra-move",
     "publisher": "sdkbox",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
+    "id": "slevesque/vscode-3dviewer/latest",
+    "description": "Preview 3D models in VSCode",
+    "displayName": "3D Viewer for VSCode",
+    "links": {
+      "self": "/v3/plugins/slevesque/vscode-3dviewer/latest",
+      "plugin": "/v3/plugins/slevesque/vscode-3dviewer/latest/che-theia-plugin.yaml"
+    },
+    "name": "vscode-3dviewer",
+    "publisher": "slevesque",
     "type": "VS Code extension",
     "version": "latest"
   },

@@ -10,13 +10,13 @@ icon: /images/zxh404-vscode-proto3-icon.png
 category: Programming Languages
 repository: 'https://github.com/zxh0/vscode-proto3'
 firstPublicationDate: '2020-08-28'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 deprecate:
   automigrate: true
   migrateTo: zxh404/vscode-proto3/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:protobuf-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:protobuf-8cd78a5'
       name: vscode-proto3
       memoryLimit: 256Mi
       memoryRequest: 20Mi

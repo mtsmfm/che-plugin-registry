@@ -19,7 +19,7 @@ sidecar:
   volumeMounts:
     - name: documents
       path: /documents
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:asciidoc-147861f'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:asciidoc-8cd78a5'
 preferences:
   asciidoc.use_asciidoctorpdf: true
 dependencies: []

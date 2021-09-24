@@ -10,13 +10,13 @@ icon: /images/octref-vetur-icon.png
 category: Programming Languages
 repository: 'https://github.com/vuejs/vetur.git'
 firstPublicationDate: '2020-08-07'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 deprecate:
   automigrate: true
   migrateTo: octref/vetur/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-8cd78a5'
       name: vetur
       memoryLimit: 512Mi
       memoryRequest: 20Mi

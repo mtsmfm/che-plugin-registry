@@ -10,10 +10,10 @@ icon: /images/bmewburn-vscode-intelephense-client-icon.png
 category: Programming Languages
 repository: 'https://github.com/bmewburn/vscode-intelephense.git'
 firstPublicationDate: '2020-09-23'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-8cd78a5'
       memoryLimit: 1Gi
       memoryRequest: 20Mi
       cpuRequest: 30m

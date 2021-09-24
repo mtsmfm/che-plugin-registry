@@ -15,7 +15,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-147861f'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-8cd78a5'
 dependencies: []
 extensions:
   - 'https://download.jboss.org/jbosstools/vscode/stable/vscode-wsdl2rest/vscode-wsdl2rest-0.0.11-106.vsix'

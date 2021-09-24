@@ -10,10 +10,10 @@ icon: /images/redhat-vscode-quarkus-icon.png
 category: Programming Languages
 repository: 'https://github.com/redhat-developer/vscode-quarkus'
 firstPublicationDate: '2020-04-30'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:java8-8cd78a5'
       volumes:
         - name: m2
           mountPath: /home/theia/.m2

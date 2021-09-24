@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-147861f'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-8cd78a5'
 dependencies: []
 extensions:
   - 'https://open-vsx.org/api/wingrunr21/vscode-ruby/0.27.0/file/wingrunr21.vscode-ruby-0.27.0.vsix'

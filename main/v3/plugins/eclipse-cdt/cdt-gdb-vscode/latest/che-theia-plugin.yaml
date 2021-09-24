@@ -16,7 +16,7 @@ sidecar:
   memoryRequest: 20Mi
   cpuLimit: 500m
   cpuRequest: 30m
-  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:clang-147861f'
+  image: 'ghcr.io/mtsmfm/che-plugin-sidecar:clang-8cd78a5'
 dependencies: []
 extensions:
   - 'https://download.jboss.org/jbosstools/vscode/3rdparty/cdt-gdb-vscode/cdt-gdb-vscode-0.0.91-2cbbb8.vsix'

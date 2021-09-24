@@ -20,7 +20,7 @@ components:
         - name: HOSTED_PLUGIN_PORT
           value: '3130'
         - name: THEIA_HOST
-          value: 0.0.0.0
+          value: 127.0.0.1
       volumeMounts:
         - name: plugins
           path: /plugins
@@ -115,7 +115,7 @@ components:
       command:
         - /go/bin/che-machine-exec
         - '--url'
-        - '0.0.0.0:3333'
+        - '127.0.0.1:3333'
       memoryLimit: 128Mi
       memoryRequest: 32Mi
       cpuLimit: 500m

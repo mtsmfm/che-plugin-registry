@@ -10,10 +10,10 @@ icon: /images/rebornix-ruby-icon.png
 category: Programming Languages
 repository: 'https://github.com/rubyide/vscode-ruby.git'
 firstPublicationDate: '2021-01-05'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:ruby-8cd78a5'
       name: vscode-ruby
       memoryLimit: 1500Mi
       memoryRequest: 20Mi

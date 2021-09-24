@@ -1,0 +1,16 @@
+apiVersion: v2
+publisher: slevesque
+name: vscode-3dviewer
+version: latest
+type: VS Code extension
+displayName: 3D Viewer for VSCode
+title: 3D Viewer for VSCode
+description: Preview 3D models in VSCode
+icon: /images/slevesque-vscode-3dviewer-icon.png
+category: Other
+repository: 'https://github.com/stef-levesque/vscode-3dviewer.git'
+firstPublicationDate: '2021-09-24'
+latestUpdateDate: '2021-09-24'
+spec:
+  extensions:
+    - 'https://github.com/mtsmfm/publish-extensions/releases/download/dummy/slevesque.vscode-3dviewer.vsix'

@@ -10,13 +10,13 @@ icon: /images/felixfbecker-php-debug-icon.png
 category: Debuggers
 repository: 'https://github.com/felixfbecker/vscode-php-debug.git'
 firstPublicationDate: '2019-12-12'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 deprecate:
   automigrate: true
   migrateTo: felixfbecker/php-debug/latest
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:php-8cd78a5'
       name: php-debugger
       memoryLimit: 256Mi
       memoryRequest: 20Mi

@@ -10,10 +10,10 @@ icon: /images/stylelint-vscode-stylelint-icon.png
 category: Linters
 repository: 'https://github.com/stylelint/vscode-stylelint'
 firstPublicationDate: '2021-02-09'
-latestUpdateDate: '2021-09-09'
+latestUpdateDate: '2021-09-24'
 spec:
   containers:
-    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-147861f'
+    - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-8cd78a5'
       memoryLimit: 512Mi
       memoryRequest: 20Mi
       cpuRequest: 30m
