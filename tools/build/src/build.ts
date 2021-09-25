@@ -320,13 +320,6 @@ export class Build {
     const computedYamls = [...cheTheiaPluginsMetaYaml, ...cheEditorsMetaYaml, ...chePluginsMetaYaml];
 
     let allMetaYamls = computedYamls;
-    if (!this.skipDigests) {
-      // update all images to use digest instead of tags
-      allMetaYamls = await this.wrapIntoTask(
-        'Update tags by digests for OCI images',
-        this.digestImagesHelper.updateImages(computedYamls)
-      );
-    }
 
     // generate v3/external_images.txt
     await this.wrapIntoTask('Generate v3/external_images.txt', this.externalImagesWriter.write(allMetaYamls));

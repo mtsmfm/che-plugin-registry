@@ -16,7 +16,7 @@ import simpleGit, { SimpleGit } from 'simple-git';
 // Needs to provide the name of the sidecar image for a given directory (like 'java11' or 'go')
 @injectable()
 export class SidecarDockerImage {
-  public static readonly PREFIX_IMAGE: string = 'quay.io/eclipse/che-plugin-sidecar';
+  public static readonly PREFIX_IMAGE: string = 'ghcr.io/mtsmfm/che-plugin-sidecar';
 
   private git: SimpleGit;
 

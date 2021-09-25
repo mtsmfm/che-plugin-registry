@@ -26,7 +26,7 @@ do
             PLATFORMS=$(cat sidecars/"$SIDECAR_NAME"/PLATFORMS)
             SHORT_SHA1=$(git rev-parse --short=7 HEAD)
             if [[ $BUILD_PUBLISH == 'build-publish' ]]; then
-                IMAGE_NAME=quay.io/eclipse/che-plugin-sidecar:"$SIDECAR_NAME"-"$SHORT_SHA1"
+                IMAGE_NAME=ghcr.io/mtsmfm/che-plugin-sidecar:"$SIDECAR_NAME"-"$SHORT_SHA1"
                 echo "Building $IMAGE_NAME"
                 docker buildx build --platform "$PLATFORMS" -t "$IMAGE_NAME" \
                     "$BUILD_ARGS" sidecars/"$SIDECAR_NAME"/
