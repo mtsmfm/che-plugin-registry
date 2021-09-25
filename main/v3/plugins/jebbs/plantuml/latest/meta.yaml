@@ -10,7 +10,7 @@ icon: /images/jebbs-plantuml-icon.png
 category: Programming Languages
 repository: 'https://github.com/qjebbs/vscode-plantuml.git'
 firstPublicationDate: '2021-01-28'
-latestUpdateDate: '2021-09-24'
+latestUpdateDate: '2021-09-25'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:plantuml-8cd78a5'

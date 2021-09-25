@@ -10,7 +10,7 @@ icon: /images/redhat-vscode-yaml-icon.png
 category: Programming Languages
 repository: 'https://github.com/redhat-developer/vscode-yaml'
 firstPublicationDate: '2021-01-12'
-latestUpdateDate: '2021-09-24'
+latestUpdateDate: '2021-09-25'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:node-8cd78a5'

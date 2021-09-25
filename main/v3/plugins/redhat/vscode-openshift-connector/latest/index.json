@@ -10,7 +10,7 @@ icon: /images/redhat-vscode-openshift-connector-icon.png
 category: Other
 repository: 'https://github.com/redhat-developer/vscode-openshift-tools.git'
 firstPublicationDate: '2020-10-01'
-latestUpdateDate: '2021-09-24'
+latestUpdateDate: '2021-09-25'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:openshift-tooling-8cd78a5'

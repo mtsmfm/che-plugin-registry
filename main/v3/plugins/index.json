@@ -221,6 +221,19 @@
     "version": "latest"
   },
   {
+    "id": "crysislinux/openjscad/latest",
+    "description": "Integrate OpenJscad with Vscode",
+    "displayName": "OpenJscad",
+    "links": {
+      "self": "/v3/plugins/crysislinux/openjscad/latest",
+      "plugin": "/v3/plugins/crysislinux/openjscad/latest/che-theia-plugin.yaml"
+    },
+    "name": "openjscad",
+    "publisher": "crysislinux",
+    "type": "VS Code extension",
+    "version": "latest"
+  },
+  {
     "id": "dart-code/dart-code/latest",
     "description": "Dart language support and debugger for Visual Studio Code.",
     "displayName": "Dart",

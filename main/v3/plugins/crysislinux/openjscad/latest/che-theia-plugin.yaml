@@ -1,0 +1,15 @@
+schemaVersion: 1.0.0
+metadata:
+  id: crysislinux/openjscad
+  publisher: crysislinux
+  name: openjscad
+  version: latest
+  displayName: OpenJscad
+  description: Integrate OpenJscad with Vscode
+  repository: 'https://github.com/crysislinux/vscode-openjscad.git'
+  categories:
+    - Other
+  icon: /images/crysislinux-openjscad-icon.png
+dependencies: []
+extensions:
+  - 'https://github.com/mtsmfm/publish-extensions/releases/download/dummy/crysislinux.openjscad.vsix'

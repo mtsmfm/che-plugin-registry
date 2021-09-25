@@ -10,7 +10,7 @@ icon: /images/bazelbuild-vscode-bazel-icon.png
 category: Programming Languages
 repository: 'https://github.com/bazelbuild/vscode-bazel.git'
 firstPublicationDate: '2019-09-19'
-latestUpdateDate: '2021-09-24'
+latestUpdateDate: '2021-09-25'
 spec:
   containers:
     - image: 'ghcr.io/mtsmfm/che-plugin-sidecar:bazel-8cd78a5'

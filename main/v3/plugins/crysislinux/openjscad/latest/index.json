@@ -1,0 +1,16 @@
+apiVersion: v2
+publisher: crysislinux
+name: openjscad
+version: latest
+type: VS Code extension
+displayName: OpenJscad
+title: OpenJscad
+description: Integrate OpenJscad with Vscode
+icon: /images/crysislinux-openjscad-icon.png
+category: Other
+repository: 'https://github.com/crysislinux/vscode-openjscad.git'
+firstPublicationDate: '2021-09-25'
+latestUpdateDate: '2021-09-25'
+spec:
+  extensions:
+    - 'https://github.com/mtsmfm/publish-extensions/releases/download/dummy/crysislinux.openjscad.vsix'

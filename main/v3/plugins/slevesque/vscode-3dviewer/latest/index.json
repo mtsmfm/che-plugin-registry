@@ -10,7 +10,7 @@ icon: /images/slevesque-vscode-3dviewer-icon.png
 category: Other
 repository: 'https://github.com/stef-levesque/vscode-3dviewer.git'
 firstPublicationDate: '2021-09-24'
-latestUpdateDate: '2021-09-24'
+latestUpdateDate: '2021-09-25'
 spec:
   extensions:
     - 'https://github.com/mtsmfm/publish-extensions/releases/download/dummy/slevesque.vscode-3dviewer.vsix'
