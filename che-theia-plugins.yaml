@@ -863,3 +863,7 @@ plugins:
       url: https://github.com/stef-levesque/vscode-3dviewer
       revision: 95408588d4f2987f0ae579b83e543f3f364bc467
     extension: https://github.com/mtsmfm/publish-extensions/releases/download/dummy/slevesque.vscode-3dviewer.vsix
+  - repository:
+      url: https://github.com/crysislinux/vscode-openjscad
+      revision: 4ae933d90b005ee344a9c701eec9df7e3f35901e
+    extension: https://github.com/mtsmfm/publish-extensions/releases/download/dummy/crysislinux.openjscad.vsix
